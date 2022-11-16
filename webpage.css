@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+h1{
+    color: black;
+}
+span{
+    color: white;
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+#image{
+    background-image: url("images/cartoon-web-design-landing-page_52683-70880.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+.all{
+    display: flex;
+}
+p{
+    border: 1px solid;
+    text-align: justify;
+    padding: 10px;}
